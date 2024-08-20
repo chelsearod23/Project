@@ -22,7 +22,7 @@ The limited availability of qualified radiologists poses a significant challenge
 
 ⦁ Datasets In this database, you will find X-ray images of the chest taken from Tuberculosis (TB) positive cases as well as normal images. At the time of this release, we have 700 TB images that are publicly accessible and 2800 TB images that can be downloaded from the NIAID TB portal after signing an agreement, in addition to 3500 standard images.
 
-![](images/Screenshot%20(51)-01.png){width="583"}
+![Dataset sample](https://github.com/user-attachments/assets/42fe9358-f9c4-45f3-95a8-d899a85b8b99)
 
 Fig: Dataset Sample
 
@@ -38,7 +38,7 @@ It is necessary to undertake pre-processing in order for machine learning to be 
 
 To diagnose tuberculosis and localize it in CXR images, deep CNN models are being used in conjunction with unified approaches to improve the accuracy-stability of the disease detection process. These approaches include DenseNet and cascaded classifier-based Deep forest models, among others. Using a dataset that has been divided into testing groups, we examine the overall performance of the models under consideration.
 
-![](images/Screenshot%20(50)-01.png){width="565"}
+![flowchart](https://github.com/user-attachments/assets/f18ec436-9612-421a-b79a-636aaf38d6b0)
 
 #### 1.Dense Net
 
@@ -48,7 +48,7 @@ Dense Net is better then others because in other models each layer passes inform
 
 Our investigation focuses on the binary classification of images in order to distinguish between TB abnormalities, while also performing a further diagnosis and localization of specific TB-related manifestations on the data set under consideration.
 
-![](images/Screenshot%20(52)-01.png){width="476"}
+![Dense Net architecture](https://github.com/user-attachments/assets/5dfcf48e-1b5d-459a-88b9-55ebd84be76e)
 
 Fig: DenseNet Architecture
 
@@ -56,7 +56,7 @@ Fig: DenseNet Architecture
 
 Deep forest is a ensemble learning ,method which means it is an machine learning approach where multiple models are combined to make predictions which improves overall accuracy and robustness of prediction compared to single model. It predicts bounding boxes around areas of interest in chest xray to identify where TB can be. It utilizes Cascaded structure that is each stage refines prediction made by previous stage and performs well in classifying CXR images without segmentation. An ensemble of learners has long been recognised as having great generalization performance as compared to solo learners.
 
-![](images/Screenshot%20(53)-01.png){width="529"}
+![deep forest architecture](https://github.com/user-attachments/assets/bc93e516-dca9-49a6-a571-7aa8860aedf1)
 
 Fig : Deep Forest Architecture
 
@@ -101,23 +101,23 @@ The entire project, including training and evaluation, is expected to run in app
 
 In this two-class problem, all of the evaluated pre-trained models perform exceptionally well in distinguishing between TB and normal images. Deep Forest outperforms the other networks trained with X-ray images without segmentation when it comes to classifying the X-ray images, according to the results.
 
-![](images/Screenshot%20(55)-01.png){width="461"}
+![deep forest result](https://github.com/user-attachments/assets/3a5aabb3-80b5-4fc2-b88e-32143e7b3520)
 
-![](images/Screenshot%20(56)-01.png){width="392"}
+![deep forest confusion matrix](https://github.com/user-attachments/assets/0845bab4-07bf-4fab-9d58-05dc97e4de13)
 
 Fig: Deep forest Predicted label vs True label
 
-#### ![](images/Screenshot%20(57).png){width="376"}
+![DN accuracy plot](https://github.com/user-attachments/assets/8ba561d7-0330-4bc8-a762-3d975a6acbf1)
 
-![](images/Screenshot%20(58).png){width="366"}
+![dense net loss plot](https://github.com/user-attachments/assets/fcf2294f-81e1-471d-8d49-564c879c1dd9)
 
 Fig : Dense Net Accuracy and Loss Plot
 
-![](images/Screenshot%20(59).png){width="344"}
+![DN confusion mat](https://github.com/user-attachments/assets/c0886fda-c93a-4253-8db3-3dfa8892f721)
 
 Fig:DenseNet Predicted label Vs True label
 
-![](images/Screenshot%20(60).png){width="390"}
+![DN result](https://github.com/user-attachments/assets/f288f641-904d-4f80-abf1-8d03fa969654)
 
 #### License
 
