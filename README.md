@@ -107,9 +107,9 @@ In this two-class problem, all of the evaluated pre-trained models perform excep
 
 Fig: Deep forest Predicted label vs True label
 
-![DN accuracy plot](https://github.com/user-attachments/assets/8ba561d7-0330-4bc8-a762-3d975a6acbf1)
+![dense net acc plot](https://github.com/user-attachments/assets/63fdbde8-455b-4d3b-83fa-d8b4933aa189)
 
-![dense net loss plot](https://github.com/user-attachments/assets/fcf2294f-81e1-471d-8d49-564c879c1dd9)
+![dense net loss plot (2)](https://github.com/user-attachments/assets/b1c7bc3d-98e8-4e58-9a7f-11793fe5112c)
 
 Fig : Dense Net Accuracy and Loss Plot
 
